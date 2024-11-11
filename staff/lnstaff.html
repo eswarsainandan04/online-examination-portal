@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizMaster</title>
+    <link rel="stylesheet" href="lnstyle.css">
+    <style>
+        .form-group label {
+            display: block;
+            text-align: left;
+        }
+        .men-btn {
+            background: #001e4d;
+            color: #fff;
+            font-weight: 500;
+            width: 150px;
+            border: 0;
+            padding: 10px;
+            margin: 20px auto 0;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        body {
+            background-image: url('alietbg.jpg');
+            border-image-outset: #001e4d;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            box-sizing: border-box;
+          }
+    </style>
+</head>
+<body>
+    <div class="app">
+        <h1><img src="logo.jpg" alt="Quiz App Logo" class="logo" width="100" height="100">
+            <span style="color: blue; font-family: 'Arial black';font-size:large;">Andhra Loyola Institute of Engineering and Technology<br><span style="color:rgb(159, 77, 29); font-family: 'Arial Black';font-size:medium;">DEPARTMENT OF INFORMATION TECHNOLOGY<br></span><span style="color:black;font-family:'Times New Roman';font-size:large;align-items:center;">MOCK TEST</span></span></h1>
+        <div class="container">
+            <form method="POST">
+                <h2><span style="color:black ;font-family:'Elephant';text-align:center"  >STAFF LOGIN</span></h2>
+                <br>
+                <br>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                </div>
+                <input type="password" id="password" name="password" required>
+                <div class="form-group">
+                    <label for="showPasswordCheckbox"><input type="checkbox" id="showPasswordCheckbox"><span style="font-size:small;"> Show Password</span> </label>
+                </div>
+                <br>
+                <br>
+                <button type="button" class="menu-btn" onclick="Login()">Login</button>
+                <br>
+                <br>
+                <button type="button" class="men-btn" onclick="lnBack()">Back to Main</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        function Login() {
+            var password = document.getElementById("password").value;
+            // Check if password matches
+            if (password === "aliet@2024") {
+                // Redirect to staff.php
+                window.location.href = "workout1.php";
+            } else {
+                // Display incorrect password message
+                alert("Incorrect password. Please try again.");
+            }
+        }
+
+        document.getElementById("showPasswordCheckbox").addEventListener("change", function() {
+            var passwordField = document.getElementById("password");
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+            } else {
+                passwordField.type = "password";
+            }
+        });
+        function lnBack(){
+            window.location = "../main.html";
+        }
+    </script>
+</body>
+</html>

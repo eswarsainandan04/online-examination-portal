@@ -1,0 +1,11 @@
+to run this
+
+1) install xampp
+2) connect apache, MySQL
+3) place this folder in  C:\xampp\htdocs
+4) open chrome or any brower 
+      http://localhost/Online Examination Portal/main.html
+
+staff password: aliet@2024
+
+or you can change in code

@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizMaster</title>
+    <link rel="stylesheet" href="lnstyle.css">
+    <style>
+        
+        .menu-btn {
+            background: #001e4d;
+            color: #fff;
+            font-weight: 500;
+            width: 150px;
+            border: 0;
+            padding: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 0 10px; /* Adjusted margin for better spacing */
+        }
+    </style>
+</head>
+<body>
+  <div class="app">
+    <h1><img src="logo.jpg" alt="Quiz App Logo" class="logo" width="100" height="100">
+      <span style="color: blue; font-family: 'Arial black';font-size:large;">Andhra Loyola Institute of Engineering and Technology<br><span style="color:rgb(159, 77, 29); font-family: 'Arial Black';font-size:medium;">DEPARTMENT OF INFORMATION TECHNOLOGY<br></span><span style="color:black;font-family:'Times New Roman';font-size:large;align-items:center;">MOCK TEST</span></span></h1>
+    <div class="container">
+        <h2><span style="color:black ;font-family:'Elephant';text-align:center"  >Quiz Master</span></h2>
+        <br>
+        <div class="stu-container">
+        <img src="student.png" class="stu" width="100" height="100">
+        </div>
+        <br>
+        <button class="menu-btn" onclick="stuLog()">Student Login</button>
+        <br>
+        <br>
+        <div class="stu-container">
+            <img src="teacher.jpg" class="stu" width="100" height="100">
+        </div>
+        <br>
+        <button class="menu-btn" onclick="stafLog()">Staff Login</button>
+        <br>
+        <br>
+    </div>
+    
+    <script>
+        function stuLog(){
+            window.location = "student/studentlogin.php";
+        }
+        function stafLog(){
+            window.location = "staff/lnstaff.html";
+        }
+
+    </script>
+</body>
+</html>
