@@ -1,5 +1,10 @@
 # Student Assessment and Practice Portal
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](http://online-examination-portal.kesug.com/examination/index.html) 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/eswarsainandan04/online-examination-portal)
+
+---
+
 A web application designed for conducting assignments or practice tests with MCQs for students. It provides a portal for seamless interaction between staff and students, allowing teachers to manage subjects, assignments, and results, while students can log in, take tests, and view their results.
 
 ## 🔧 Tech Stack
@@ -84,4 +89,5 @@ A web application designed for conducting assignments or practice tests with MCQ
 ---
 
 ## 📂 Project Structure
+
 
