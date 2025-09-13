@@ -25,6 +25,10 @@ A web application designed for conducting assignments or practice tests with MCQ
 **Student Login / Sign Up**
 ![Login or Sign up](student/Screenshot%202024-11-10%20234147.png)
 
+**Student ResetPassword Page**
+![Reset Password Page](student/Screenshot%2025-09-13%195253.png)
+
+
 **Student Home Page**
 ![Home Page](student/Screenshot%202024-11-10%20234338.png)
 
@@ -46,6 +50,7 @@ A web application designed for conducting assignments or practice tests with MCQ
 
 **Result Page After Submitting**
 ![Results Overview](student/Screenshot%202024-11-10%20234958.png)
+
 
 ---
 
@@ -89,6 +94,7 @@ A web application designed for conducting assignments or practice tests with MCQ
 ---
 
 ## 📂 Project Structure
+
 
 
 
