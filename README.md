@@ -11,7 +11,7 @@ A web application designed for conducting assignments or practice tests with MCQ
 
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** PHP, MySQL  
-- **Server:** Localhost (e.g., XAMPP, WAMP)
+- **Server:** Localhost (e.g., XAMPP)
 
 ---
 
@@ -89,5 +89,6 @@ A web application designed for conducting assignments or practice tests with MCQ
 ---
 
 ## 📂 Project Structure
+
 
 
